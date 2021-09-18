@@ -38,6 +38,7 @@ namespace API
             services.AddApplicationServices(_config);
             services.AddControllers();
             services.AddCors();
+            //Use Extension classes to cleanup the Startup class
             services.AddIdentityServices(_config);
         }
 
